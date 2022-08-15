@@ -1,0 +1,33 @@
+{
+  "name": "@alexandr532/fetch-for-io",
+  "description": "A light-weight module that brings the Fetch API through socket.io connection",
+  "keywords": [
+    "fetch", "api", "socket.io"
+  ],
+  "version": "0.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https//github.com/alexandr532/fetch-for-io"
+  },
+  "bugs": "https://github.com/alexandr532/fetch-for-io/issues",
+  "homepage": "https://github.com/alexandr532/fetch-for-io",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "cjs"
+  ],
+  "dependencies": {
+    "socket.io": "^4.5.1"
+  }
+}
